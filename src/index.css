@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* 中式传统配色 */
+  --color-xuan-paper: #f5f0e8;
+  --color-ink: #2c2416;
+  --color-ink-light: #5c4d3d;
+  --color-shu-hong: #c0392b;
+  --color-shu-hong-light: #e74c3c;
+  --color-gold: #b8860b;
+  --color-bamboo: #4a6741;
+  --color-wood: #8b4513;
+  --color-border: #d4c9b8;
+
+  --font-family-serif: "Noto Serif SC", "Songti SC", "SimSun", serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-xuan-paper);
+  color: var(--color-ink);
+  font-family: var(--font-family-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
